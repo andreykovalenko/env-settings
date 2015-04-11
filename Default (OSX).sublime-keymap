@@ -1,0 +1,11 @@
+[
+	{ "keys": ["super+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["super+alt+forward_slash"], "command": "toggle_comment", "args": { "block": true } },
+  {
+    "keys": ["shift+space"],
+    "command": "tern_select_variable",
+    "context": [
+      {"key": "selector", "operand": "source.js"}
+    ]
+  }
+]
